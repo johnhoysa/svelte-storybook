@@ -1,5 +1,5 @@
 <script>
-  import CtaDefault from "$lib/components/cta/CtaDefault.svelte";
+  import Cta from "$lib/components/cta/Cta.svelte";
 
   let ctaFirst;
   let ctaSecond;
@@ -21,7 +21,7 @@
   <h4 class="pt-3 text-1xl text-stone-400">CTA Examples</h4>
   <p class="pt-3 text-stone-600">Links to index of site</p>
   <div class="py-3">
-    <CtaDefault
+    <Cta
       bind:value={ctaFirst}
       ctaLabel="Head Home"
       type="internal"
@@ -35,7 +35,7 @@
     Does not open link but creates console message with on:click
   </p>
   <div class="py-3">
-    <CtaDefault
+    <Cta
       on:click={handleClick}
       bind:value={ctaSecond}
       ctaLabel="CTA Two"
@@ -48,7 +48,7 @@
 
   <p class="pt-3 text-stone-600">Go To Model Example, leaves page.</p>
   <div class="py-3">
-    <CtaDefault
+    <Cta
       bind:value={ctaSecond}
       ctaLabel="Go To Model Example"
       type="internal"

@@ -1,8 +1,12 @@
 <script>
   export let headline;
+  export let size;
+  export let classes
 </script>
 
-{@html headline}
+<div>
+  {@html `<${size} class="${classes}">${headline}</${size}>`}
+</div>
 
 <style>
 </style>

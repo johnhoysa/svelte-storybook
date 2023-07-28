@@ -1,6 +1,6 @@
 <script>
 	import data from '$lib/components/card/json/card.json';
-	import CtaDefault from '$lib/components/cta/CtaDefault.svelte';
+	import Cta from '$lib/components/cta/Cta.svelte';
 </script>
 
 <div class="flex flex-row bg-green-50">
@@ -20,7 +20,7 @@
 			<h4>{@html data.heading}</h4>
 			{@html data.text}
 			<div class="pt-5">
-				<CtaDefault ctaLabel={data.ctaItem.ctaLabel} url={data.ctaItem.url} />
+				<Cta ctaLabel={data.ctaItem.ctaLabel} url={data.ctaItem.url} type="link" parameters="#params" target='' size=''/>
 			</div>
 		</div>
 	</div>

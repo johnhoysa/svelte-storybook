@@ -1,5 +1,5 @@
 <script>
-  import ModalDefault from "$lib/components/modal/ModalDefault.svelte";
+  import ModalDefault from "$lib/components/modal/Modal.svelte";
 </script>
 
 <svelte:head>

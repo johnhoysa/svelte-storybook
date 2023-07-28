@@ -1,6 +1,6 @@
 <script>
   import data from "$lib/components/cta/json/modal.json";
-  import CtaDefault from "$lib/components/cta/CtaDefault.svelte";
+  import Cta from "$lib/components/cta/Cta.svelte";
   import { fade } from "svelte/transition";
 
   let modalDefault;
@@ -16,14 +16,16 @@
     <div
       bind:this={modalDefault}
       transition:fade={{ delay: 0, duration: 250 }}
-      class="fixed left-0 top-0 z-[1055] h-full w-full overflow-y-auto overflow-x-hidden outline-none bg-amber-400"
+      class="fixed left-0 top-0 z-[1055] h-full w-full overflow-y-auto overflow-x-hidden outline-none bg-slate-100"
     >
       <!-- Modal content -->
       <div class="relative items-center justify-center text-center">
         <span
           on:click={closeModalDefault}
           role="button"
-          class="absolute text-4xl cursor-default cursor-pointer text-bold top-4 right-4 hover:text-amber-700"
+          tabindex="0"
+          aria-hidden="false"
+          class="absolute text-4xl cursor-pointer text-bold top-4 right-4 hover:text-amber-700"
         >
           X
         </span>
@@ -32,7 +34,7 @@
       </div>
     </div>
   {/if}
-  <CtaDefault
+  <Cta
     on:click={() => {
       showModal = true;
     }}

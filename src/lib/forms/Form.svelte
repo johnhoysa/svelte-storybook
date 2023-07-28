@@ -32,7 +32,7 @@
 		label="Email please"
 		name="email"
 		placeHolder="Email field disabled"
-		disabled=""
+		disabled="disabled"
 		required=""
 	/>
 
