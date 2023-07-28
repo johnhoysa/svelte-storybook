@@ -12,10 +12,9 @@
 
 <div class="m-3">
 
-  <h2 class="text-3xl"><Headline {...data} /></h2>
-  <h2 class="text-3xl">
-    <Headline headline="Headline within page.svelte" />
-  </h2>
+  <Headline {...data} />
+  <Headline headline="Headline within page.svelte" size="h4" classes="text-2xl text-orange-400" />
+
 </div>
 
 <style>
