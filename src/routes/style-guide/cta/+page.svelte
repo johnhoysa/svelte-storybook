@@ -1,0 +1,63 @@
+<script>
+  import CtaDefault from "$lib/components/cta/CtaDefault.svelte";
+
+  let ctaFirst;
+  let ctaSecond;
+
+  /** @param {MouseEvent} event */
+  function handleClick(event) {
+    console.log("the second button was clicked");
+  }
+
+  //
+</script>
+
+<svelte:head>
+  <title>CTA Components</title>
+  <meta name="description" content="CTA Component" />
+</svelte:head>
+
+<div class="p-3">
+  <h4 class="pt-3 text-1xl text-stone-400">CTA Examples</h4>
+  <p class="pt-3 text-stone-600">Links to index of site</p>
+  <div class="py-3">
+    <CtaDefault
+      bind:value={ctaFirst}
+      ctaLabel="Head Home"
+      type="internal"
+      parameters="#params"
+      target=""
+      url="/"
+    />
+  </div>
+
+  <p class="pt-3 text-stone-600">
+    Does not open link but creates console message with on:click
+  </p>
+  <div class="py-3">
+    <CtaDefault
+      on:click={handleClick}
+      bind:value={ctaSecond}
+      ctaLabel="CTA Two"
+      type="internal"
+      parameters="#params"
+      target=""
+      url=""
+    />
+  </div>
+
+  <p class="pt-3 text-stone-600">Go To Model Example, leaves page.</p>
+  <div class="py-3">
+    <CtaDefault
+      bind:value={ctaSecond}
+      ctaLabel="Go To Model Example"
+      type="internal"
+      parameters="#params"
+      target=""
+      url="/style-guide/modal"
+    />
+  </div>
+</div>
+
+<style>
+</style>
