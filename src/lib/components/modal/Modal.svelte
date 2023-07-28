@@ -23,7 +23,9 @@
         <span
           on:click={closeModalDefault}
           role="button"
-          class="absolute text-4xl cursor-default cursor-pointer text-bold top-4 right-4 hover:text-amber-700"
+          tabindex="0"
+          aria-hidden="false"
+          class="absolute text-4xl cursor-pointer text-bold top-4 right-4 hover:text-amber-700"
         >
           X
         </span>
