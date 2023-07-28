@@ -1,0 +1,36 @@
+{
+	"altText": "alt text",
+	"anchorID": "anchorID",
+	"bottomSubheader": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>",
+	"ctaAlignment": "right",
+	"ctaItem": {
+		"alignIcon": "",
+		"ctaAlignment": "center",
+		"ctaLabel": "Hero Button Label",
+		"ctaStyle": "button-secondary-dark",
+		"ctaType": "internal",
+		"iconFile": "",
+		"iconId": "",
+		"target": "_self",
+		"url": ""
+	},
+	"ctaStyle": "button-dark",
+	"ctaType": "internal",
+	"heading": "Hero Heading",
+	"headingLightDark": "light",
+	"headingStyle": "headline1",
+	"headingValue": "h1",
+	"imageSrc": {
+		"desktop": {
+			"src": "https://picsum.photos/1280/720"
+		},
+		"mobile": {
+			"src": "https://picsum.photos/640/360"
+		}
+	},
+	"paddingBottom": "",
+	"paddingLeft": "padding-left-xlarge",
+	"paddingRight": "",
+	"paddingTop": "",
+	"topSubheader": ""
+}
