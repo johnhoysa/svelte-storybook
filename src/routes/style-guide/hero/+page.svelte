@@ -1,7 +1,7 @@
 <script>
   console.log("hero style guide page loaded");
-  import HeroDefault from "$lib/components/hero/HeroDefault.svelte";
-  import HeroVariantButton from "$lib/components/hero/HeroVariantButton.svelte";
+  import HeroDefault from "$lib/components/hero/Hero.svelte";
+  import HeroVariantButton from "$lib/components/hero/HeroButton.svelte";
 </script>
 
 <svelte:head>

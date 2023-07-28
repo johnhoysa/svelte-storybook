@@ -1,6 +1,6 @@
 <script>
   import data from "$lib/components/cta/json/modal.json";
-  import CtaDefault from "$lib/components/cta/CtaDefault.svelte";
+  import Cta from "$lib/components/cta/Cta.svelte";
   import { fade } from "svelte/transition";
 
   let modalDefault;
@@ -32,7 +32,7 @@
       </div>
     </div>
   {/if}
-  <CtaDefault
+  <Cta
     on:click={() => {
       showModal = true;
     }}

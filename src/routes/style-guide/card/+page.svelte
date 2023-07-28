@@ -1,5 +1,5 @@
 <script>
-  import CardDefault from "$lib/components/card/CardDefault.svelte";
+  import CardDefault from "$lib/components/card/Card.svelte";
 </script>
 
 <svelte:head>

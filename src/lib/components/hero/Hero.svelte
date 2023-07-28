@@ -1,5 +1,5 @@
 <script>
-  import data from "./json/hero-default.json";
+  import data from "./json/hero.json";
 </script>
 
 <div class="flex items-center p-3 m-3 bg-pink-600 hero-default">
