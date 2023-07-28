@@ -16,7 +16,7 @@
     <div
       bind:this={modalDefault}
       transition:fade={{ delay: 0, duration: 250 }}
-      class="fixed left-0 top-0 z-[1055] h-full w-full overflow-y-auto overflow-x-hidden outline-none bg-amber-400"
+      class="fixed left-0 top-0 z-[1055] h-full w-full overflow-y-auto overflow-x-hidden outline-none bg-slate-100"
     >
       <!-- Modal content -->
       <div class="relative items-center justify-center text-center">
