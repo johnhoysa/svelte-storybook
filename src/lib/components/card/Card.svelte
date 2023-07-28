@@ -20,7 +20,7 @@
 			<h4>{@html data.heading}</h4>
 			{@html data.text}
 			<div class="pt-5">
-				<Cta ctaLabel={data.ctaItem.ctaLabel} url={data.ctaItem.url} />
+				<Cta ctaLabel={data.ctaItem.ctaLabel} url={data.ctaItem.url} type="link" parameters="#params" target='' size=''/>
 			</div>
 		</div>
 	</div>
