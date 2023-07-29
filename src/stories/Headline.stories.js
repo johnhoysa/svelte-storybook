@@ -6,38 +6,43 @@ export default {
 	component: Headline,
 	tags: ['autodocs'],
 	argTypes: {
-		backgroundColor: { control: 'color' },
 		size: {
 			control: { type: 'select' },
-			options: ['small', 'medium', 'large']
+			options: ['h1', 'h2', 'h3', 'h4', 'h5']
 		}
 	}
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/svelte/writing-stories/args
-export const HeadlinePrimary = {
+export const HeadlineH1 = {
 	args: {
 		primary: true,
-		label: 'Headline'
+		label: 'Headline One H1',
+		size: 'h1',
+		classes: 'text-3xl'
 	}
 };
 
-export const HeadlineSecondary = {
+export const HeadlineH2 = {
 	args: {
-		label: 'Headline'
+		label: 'Headline Two H2',
+		size: 'h2',
+		classes: 'text-2xl'
 	}
 };
 
-export const HeadlineLarge = {
+export const HeadlineH3 = {
 	args: {
-		size: 'large',
-		label: 'Headline'
+		label: 'Headline Three H3',
+		size: 'h3',
+		classes: 'text-1xl'
 	}
 };
 
-export const HeadlineSmall = {
+export const HeadlineH4 = {
 	args: {
-		size: 'small',
-		label: 'Headline'
+		label: 'Headline Four H4',
+		size: 'h4',
+		classes: 'text-xl'
 	}
 };

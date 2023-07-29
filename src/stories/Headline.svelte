@@ -1,30 +1,20 @@
 <script>
-  import Headline from "$lib/components/headline/headline.svelte";
+  import Headline from "$lib/components/headline/Headline.svelte";
   /**
    * Is this the principal call to action on the page?
    */
   export let primary = false;
 
   /**
-   * @type {string} What background color to use
+   * @type {'h1' | 'h2' | 'h3'| 'h4' | 'h5'} How large should the button be?
    */
-  export let backgroundColor = undefined;
-
-  /**
-   * @type {'small' | 'medium' | 'large'} How large should the button be?
-   */
-  export let size = "medium";
+  export let size = "h3";
 
   /**
    * @type {string} Button contents
    */
   export let label;
 
-  $: mode = primary
-    ? "storybook-button--primary"
-    : "storybook-button--secondary";
-
-  $: style = backgroundColor ? `background-color: ${backgroundColor}` : "";
 </script>
 
-<Headline headline={label} />
+<Headline headline={label} size="h2" classes="text-2xl text-orange-400" />
