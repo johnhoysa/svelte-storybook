@@ -1,6 +1,6 @@
 # Getting Started
 
-Once you've downlaoded the project from GitHub runh `npm install` (or `pnpm install` or `yarn`) to load all the dependencies.
+Once you've downloaded the project from GitHub run `npm install` (or `pnpm install` or `yarn`) to load all the dependencies.
 
 To start a development server:
 
