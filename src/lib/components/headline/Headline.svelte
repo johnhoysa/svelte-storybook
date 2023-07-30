@@ -1,11 +1,11 @@
 <script>
   export let headline;
-  export let size;
+  export let hTag;
   export let styles
 </script>
 
 <div>
-  {@html `<${size} class="${styles}">${headline}</${size}>`}
+  {@html `<${hTag} class="${styles}">${headline}</${hTag}>`}
 </div>
 
 <style>

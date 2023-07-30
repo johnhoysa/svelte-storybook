@@ -13,7 +13,7 @@
 <div class="m-3">
 
   <Headline {...data} />
-  <Headline headline="Headline within page.svelte" size="h4" styles="text-xl text-orange-400" />
+  <Headline headline="Headline within page.svelte" hTag="h4" styles="text-xl text-orange-400" />
 
 </div>
 

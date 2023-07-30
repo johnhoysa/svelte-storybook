@@ -8,14 +8,13 @@
   /**
    * @type {'h1' | 'h2' | 'h3'| 'h4' | 'h5'} What H tag should the headline have?
    */
-  export let size = "h3";
+  export let hTag = "h3";
 
   /**
    * @type {string} headline contents
    */
   export let label;
-  export let sized;
   export let styled;
 </script>
 
-<Headline headline={label} size={sized} styles={styled} />
+<Headline headline={label} hTag={hTag} styles={styled} />
