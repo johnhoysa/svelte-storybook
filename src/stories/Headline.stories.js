@@ -14,35 +14,35 @@ export default {
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/svelte/writing-stories/args
-export const HeadlineH1 = {
+export const Heading1 = {
 	args: {
 		primary: true,
-		label: 'Headline One H1',
-		size: 'h1',
-		classes: 'text-3xl'
+		label: 'Example of H1 Heading',
+		sized: 'h1',
+		styled: 'text-3xl'
 	}
 };
 
-export const HeadlineH2 = {
+export const Heading2 = {
 	args: {
-		label: 'Headline Two H2',
-		size: 'h2',
-		classes: 'text-2xl'
+		label: 'Example of H2 Heading',
+		sized: 'h2',
+		styled: 'text-2xl'
 	}
 };
 
-export const HeadlineH3 = {
+export const Heading3 = {
 	args: {
-		label: 'Headline Three H3',
-		size: 'h3',
-		classes: 'text-1xl'
+		label: 'Example of H3 Heading',
+		sized: 'h3',
+		styled: 'text-1xl'
 	}
 };
 
-export const HeadlineH4 = {
+export const Heading4 = {
 	args: {
-		label: 'Headline Four H4',
-		size: 'h4',
-		classes: 'text-xl'
+		label: 'Example of H4 Heading',
+		sized: 'h4',
+		styled: 'text-lg'
 	}
 };
