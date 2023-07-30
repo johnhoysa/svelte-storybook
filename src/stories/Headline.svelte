@@ -6,15 +6,16 @@
   export let primary = false;
 
   /**
-   * @type {'h1' | 'h2' | 'h3'| 'h4' | 'h5'} How large should the button be?
+   * @type {'h1' | 'h2' | 'h3'| 'h4' | 'h5'} What H tag should the headline have?
    */
   export let size = "h3";
 
   /**
-   * @type {string} Button contents
+   * @type {string} headline contents
    */
   export let label;
-
+  export let sized;
+  export let styled;
 </script>
 
-<Headline headline={label} size="h2" classes="text-2xl text-orange-400" />
+<Headline headline={label} size={sized} styles={styled} />
