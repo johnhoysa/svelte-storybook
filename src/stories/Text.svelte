@@ -1,25 +1,14 @@
 <script>
-  // Storybook settings are updated here and in Text.stories.js
-  import Text from "$lib/components/text/Text.svelte";
-  //
-
-
+  import Text from "$lib/components/Text/Text.svelte";
   /**
-   * @type {'small' | 'paragraph' | 'large'} How large should the button be?
+   * Is this the principal call to action on the page?
    */
-  export let size = "paragraph";
 
   /**
    * @type {string} Text contents
    */
-
   export let label;
-
-  $: mode = primary
-    ? "storybook-button--primary"
-    : "storybook-button--secondary";
-
-  // $: style = backgroundColor ? `background-color: ${backgroundColor}` : "";
+  export let styles;
 </script>
 
-<Text text={label} />
+<Text text={label} styles={styles} />
