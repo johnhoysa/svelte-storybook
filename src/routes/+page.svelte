@@ -8,7 +8,12 @@
 </svelte:head>
 
 <section class="p-2">
-  <h1 class="text-3xl">Atoms</h1>
+  <h3 class="text-3xl">About</h3>
+  <p>A custom style guide to give developers, authors, and clients a peek at how each component might work on a page</p>
+</section>
+
+<section class="p-2">
+  <h3 class="text-3xl">Atoms</h3>
   <p>
     <a
       href="/style-guide/headline"
@@ -23,7 +28,7 @@
 </section>
 
 <section class="p-2">
-  <h1 class="text-3xl">Components</h1>
+  <h3 class="text-3xl">Components</h3>
   <br />
   <p>
     <a href="/style-guide/card" class="text-blue-600 visited:text-purple-600"
