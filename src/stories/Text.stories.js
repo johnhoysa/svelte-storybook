@@ -15,7 +15,7 @@ export default {
 	parameters: {
 		docs: {
 			description: {
-				component: 'Description set here, is currently overwritten by Docs.mdx'
+				component: 'Component description needed'
 			}
 		}
 	}
