@@ -5,53 +5,35 @@ export default {
 	title: 'Atoms/Text',
 	component: Text,
 	tags: ['autodocs'],
-	argTypes: {
-		// backgroundColor: { control: 'color' },
-		size: {
-			control: { type: 'select' },
-			options: ['text-1', 'text-2', 'text-3']
-		}
-	},
+	argTypes: {},
 	parameters: {
 		docs: {
 			description: {
-				component: 'Description set here, is currently overwritten by Docs.mdx'
+				component: 'Component description needed'
 			}
 		}
 	}
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/svelte/writing-stories/args
-export const Primary = {
+export const Paragraph = {
 	args: {
-		primary: true,
-		label: 'Text Primary'
-	},
-	parameters: {
-		docs: {
-			description: {
-				story: 'Primary Description'
-			}
-		}
-	}
-};
-
-export const Secondary = {
-	args: {
-		label: 'Text Secondary'
-	}
-};
-
-export const Large = {
-	args: {
-		size: 'p-3 text-3xl',
-		label: 'Text Large'
+		label: 'Example of paragraph text',
+		styles: 'text-base'
 	}
 };
 
 export const Small = {
 	args: {
-		size: 'p-1 text-3',
-		label: 'Text Small'
+		label: 'Example of small text',
+
+		styles: 'text-sm'
+	}
+};
+
+export const Large = {
+	args: {
+		label: 'Example of large text',
+		styles: 'text-xl'
 	}
 };

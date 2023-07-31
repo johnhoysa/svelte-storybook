@@ -10,13 +10,14 @@
 
 <div class="m-3">
   <h4 class="pt-3 text-1xl text-stone-400">Text</h4>
-  <p class=""><Text {...data} /></p>
+  <Text {...data} />
   <h4 class="pt-3 text-1xl text-stone-400">Local Data Example</h4>
-  <p class="">
+  
     <Text
+      styles = "text-base"
       text="This text is from within page.svelte. <a class='text-sky-400 hover:text-sky-600' href='/'>Links to Home</a>"
     />
-  </p>
+  
 </div>
 
 <style>
