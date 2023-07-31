@@ -1,3 +1,4 @@
 {
-	"text": "This content is from the imported JSON file. <a class=\" text-sky-400 hover:text-sky-600 \" href=\"/\">Links to Home</a>"
+	"text": "This content is from the imported JSON file. <a class=\" text-sky-400 hover:text-sky-600 \" href=\"/\">Links to Home</a>",
+	"styles": "text-base"
 }

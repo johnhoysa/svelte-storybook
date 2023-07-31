@@ -1,19 +1,16 @@
 <script>
-  // Storybook settings are updated here and in Button.stories.js
+  // Storybook settings are updated here and in Text.stories.js
   import Text from "$lib/components/text/Text.svelte";
   //
-  /**
-   * Is this the principal call to action on the page?
-   */
-  export let primary = false;
+
 
   /**
-   * @type {'text-1' | 'text-2' | 'text-3'} How large should the button be?
+   * @type {'small' | 'paragraph' | 'large'} How large should the button be?
    */
-  export let size = "text-2";
+  export let size = "paragraph";
 
   /**
-   * @type {string} Button contents
+   * @type {string} Text contents
    */
 
   export let label;
