@@ -1,5 +1,5 @@
 {
-	"headline": "Headline imported from JSON file.",
-	"size": "h2",
-	"classes": "text-3xl"
+	"headline": "H1 Headline imported from JSON file.",
+	"size": "h1",
+	"styles": "text-3xl"
 }
