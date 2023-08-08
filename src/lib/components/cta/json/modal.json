@@ -1,15 +1,8 @@
 {
 	"anchor": "modalBtn",
-	"ctaItem": {
-		"alignIcon": "",
-		"ctaAlignment": "center",
-		"ctaLabel": "Modal Button Label",
-		"ctaStyle": "button-secondary-dark",
-		"ctaType": "internal",
-		"iconFile": "",
-		"iconId": "",
-		"target": "_self",
-		"url": ""
-	},
-	"backgroundColor": ""
+	"ctaLabel": "Modal Label",
+    "ctaStyle": "",
+    "ctaType": "internal",
+    "ctaTarget": "_self",
+    "ctaUrl": "/"
 }
