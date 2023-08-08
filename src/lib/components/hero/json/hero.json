@@ -4,28 +4,14 @@
 	"paddingTop": "",
 	"paddingBottom": "",
 	"paddingRight": "",
-	"imageSrc": {
-		"mobile": {
-			"src": "https://picsum.photos/640/360"
-		},
-		"desktop": {
-			"src": "https://picsum.photos/1280/720"
-		}
-	},
+	"imageDesktop": "https://picsum.photos/1280/720",
+	"imageMobile": "https://picsum.photos/640/360",
+	"imageAlt": "Alt Tag Description here",
 	"altText": "alt text",
 	"headingValue": "h1",
 	"headingStyle": "headline1",
 	"headingLightDark": "light",
 	"heading": "Hero Heading",
-	"topSubheader": "",
-	"bottomSubheader": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>",
-	"ctaAlignment": "right",
-	"ctaType": "internal",
-	"ctaLabel": "Button Label",
-	"ctaStyle": "button-dark",
-	"cta": {
-		"target": "_self",
-		"url": "/index.html",
-		"parameters": "#test"
-	}
+	"topSubheader": "Top Subheader",
+	"bottomSubheader": "<p>Hero content. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
 }

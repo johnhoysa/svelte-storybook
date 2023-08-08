@@ -1,35 +1,12 @@
 {
 	"anchor": "card",
-	"heading": "Lorem ipsum <span>dolor sit amet</span>",
-	"text": "<p class=\"text-2\">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
-	"image": {
-		"altText": "Randomly Delivered Image",
-		"imageSrc": {
-			"desktop": {
-				"src": "https://picsum.photos/1280/720"
-			},
-			"mobile": {
-				"src": "https://picsum.photos/640/360"
-			}
-		},
-		"ctaType": "internal",
-		"ctaTitle": "",
-		"cta": {
-			"target": "_self",
-			"url": "/index",
-			"parameters": "#test"
-		}
-	},
-	"ctaItem": {
-		"alignIcon": "",
-		"ctaAlignment": "center",
-		"ctaLabel": "Card Button",
-		"ctaStyle": "button-secondary",
-		"ctaType": "internal",
-		"iconFile": "",
-		"iconId": "",
-		"target": "_self",
-		"url": ""
-	},
-	"backgroundColor": ""
+	"heading": "Heading Lorem ipsum <span>dolor sit amet</span>",
+	"text": "<p class=\"text-base\">Text ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+	"imageDesktop": "https://picsum.photos/1280/720",
+	"imageMobile": "https://picsum.photos/640/360",
+	"ctaLabel": "CTA Card",
+    "ctaStyle": "",
+    "ctaType": "internal",
+    "ctaTarget": "_self",
+    "ctaUrl": "/"
 }

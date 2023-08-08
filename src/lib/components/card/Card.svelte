@@ -1,15 +1,25 @@
 <script>
-	import data from '$lib/components/card/json/card.json';
 	import Cta from '$lib/components/cta/Cta.svelte';
+	
+	export let heading;
+	export let text;
+	export let imageDesktop;
+	export let imageMobile;
+	export let ctaLabel;
+	export let type;
+	export let parameters;
+	export let target;
+	export let url;
+	export let size;
 </script>
 
-<div class="flex flex-row bg-green-50">
+<div class="flex flex-row bg-slate-100">
 	<div class="basis-3/5">
 		<picture class="w-full h-full">
-			<source media="(min-width: 768px)" srcset={data.image.imageSrc.desktop.src} />
+			<source media="(min-width: 768px)" srcset={imageDesktop} />
 			<img
 				class="object-cover w-full h-full"
-				src={data.image.imageSrc.mobile.src}
+				src={imageMobile}
 				alt="alt only needed here"
 			/>
 		</picture>
@@ -17,10 +27,10 @@
 
 	<div class="flex p-3 basis-2/5 place-items-center">
 		<div>
-			<h4>{@html data.heading}</h4>
-			{@html data.text}
+			<h4 class="text-2xl md:text-xl ">{@html heading}</h4>
+			{@html text}
 			<div class="pt-5">
-				<Cta ctaLabel={data.ctaItem.ctaLabel} url={data.ctaItem.url} type="link" parameters="#params" target='' size=''/>
+				<Cta ctaLabel={ctaLabel} url={url} type={type} parameters={parameters} target={target} size={size}/>
 			</div>
 		</div>
 	</div>

@@ -1,7 +1,10 @@
 <script>
-  console.log("hero style guide page loaded");
+  // Import Components
   import HeroDefault from "$lib/components/hero/Hero.svelte";
-  import HeroVariantButton from "$lib/components/hero/HeroButton.svelte";
+  import HeroButton from "$lib/components/hero/HeroButton.svelte";
+  // Import Data
+  import dataHero from "$lib/components/hero/json/hero.json";
+  import dataHeroButton from "$lib/components/hero/json/hero-button.json";
 </script>
 
 <svelte:head>
@@ -10,10 +13,10 @@
 </svelte:head>
 
 <h4 class="pt-3 text-1xl text-stone-400">Default Component</h4>
-<HeroDefault />
+<HeroDefault {...dataHero} />
 
-<h4 class="pt-3 text-1xl text-stone-400">Variant with Button Component</h4>
-<HeroVariantButton />
+<h4 class="pt-3 text-1xl text-stone-400">Default Component with Button</h4>
+<HeroButton {...dataHeroButton} />
 
 <style>
 </style>

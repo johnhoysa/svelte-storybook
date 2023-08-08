@@ -1,6 +1,6 @@
 {
 	"anchor": "modalBtn",
-	"ctaLabel": "Modal Label",
+    "ctaLabel": "CTA Label",
     "ctaStyle": "",
     "ctaType": "internal",
     "ctaTarget": "_self",
