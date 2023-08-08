@@ -1,0 +1,9 @@
+{
+	"anchor": "modalBtn",
+    "ctaLabel": "CTA Label",
+    "ctaStyle": "bg-amber-500",
+    "ctaType": "internal",
+    "ctaTarget": "_self",
+    "ctaUrl": "/",
+	"backgroundColor": ""
+}
