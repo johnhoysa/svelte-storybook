@@ -7,8 +7,10 @@
 
 <div class="app">
 	<Header />
-	<main>
-		<slot />
+	<main class="container m-auto">
+		<div>
+			<slot />
+		</div>
 	</main>
 	<Footer />
 </div>
