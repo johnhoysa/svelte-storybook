@@ -1,14 +1,11 @@
 <script>
-  import Text from "$lib/components/Text/Text.svelte";
-  /**
-   * Is this the principal call to action on the page?
-   */
+	import Text from '$lib/components/Text/Text.svelte';
 
-  /**
-   * @type {string} Text contents
-   */
-  export let label;
-  export let styles;
+	/**
+	 * @type {string} Text contents
+	 */
+	export let label;
+	export let styles;
 </script>
 
-<Text text={label} styles={styles} />
+<Text text={label} {styles} />
