@@ -17,8 +17,10 @@
 	export let ctaSize;
 </script>
 
-<div class="flex items-center p-3 m-3 bg-pink-600">
-	<div class="flex-1 w-32">
+<div class="relative h-[400px] overflow-hidden">
+	<div
+		class="absolute z-20 text-center text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+	>
 		<h1 class="text-5xl">{@html heading}</h1>
 		<h2 class="text-2xl">{@html topSubheader}</h2>
 		<p class="text-base">{@html bottomSubheader}</p>
@@ -26,7 +28,7 @@
 			<Cta {ctaLabel} {ctaType} {ctaParameters} {ctaTarget} {ctaUrl} {ctaSize} />
 		</div>
 	</div>
-	<div class="flex-1 w-64">
+	<div class="z-0 w-full h-full">
 		<Image {imageDesktop} {imageMobile} {imageAlt} />
 	</div>
 </div>
