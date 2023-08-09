@@ -1,6 +1,8 @@
 <script>
 	import data from '$lib/components/modal/json/modal.json';
 	import Cta from '$lib/components/cta/Cta.svelte';
+	import Headline from '$lib/components/headline/Headline.svelte';
+	import Text from '$lib/components/text/Text.svelte';
 	import { fade } from 'svelte/transition';
 
 	let modalDefault;
@@ -25,12 +27,12 @@
 					role="button"
 					tabindex="0"
 					aria-hidden="false"
-					class="absolute text-4xl cursor-pointer text-bold top-4 right-4 text-sky-400 hover:text-sky-600"
+					class="absolute pt-2 text-4xl cursor-pointer top-4 right-4 text-bold text-sky-400 hover:text-sky-600"
 				>
 					X
 				</span>
-				<p class="pt-8">Some text in the Modal...</p>
-				<p>click close btn in right top corner</p>
+				<Headline headline="Headline from Svelte File" hTag="h2" styles="relative text-2xl pt-4" />
+				<Text text="Close Modal with button in top right corner" styles="text-base" />
 			</div>
 		</div>
 	{/if}
