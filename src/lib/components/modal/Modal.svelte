@@ -1,5 +1,5 @@
 <script>
-	import data from '$lib/components/cta/json/modal.json';
+	import data from '$lib/components/modal/json/modal.json';
 	import Cta from '$lib/components/cta/Cta.svelte';
 	import { fade } from 'svelte/transition';
 
@@ -11,7 +11,7 @@
 	}
 </script>
 
-<div class="w-1/2 p-3">
+<div class="w-1/2">
 	{#if showModal}
 		<div
 			bind:this={modalDefault}
@@ -25,7 +25,7 @@
 					role="button"
 					tabindex="0"
 					aria-hidden="false"
-					class="absolute text-4xl cursor-pointer text-bold top-4 right-4 hover:text-amber-700"
+					class="absolute text-4xl cursor-pointer text-bold top-4 right-4 text-sky-400 hover:text-sky-600"
 				>
 					X
 				</span>
@@ -34,12 +34,7 @@
 			</div>
 		</div>
 	{/if}
-	<Cta
-		on:click={() => {
-			showModal = true;
-		}}
-		ctaLabel={data.ctaItem.ctaLabel}
-	/>
+	<Cta on:click={() => (showModal = true)} {...data} />
 </div>
 
 <style>

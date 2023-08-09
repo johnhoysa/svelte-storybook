@@ -23,6 +23,9 @@
 		<a href="/style-guide/text" class="text-blue-600 visited:text-purple-600">Text</a>
 	</p>
 	<p>
+		<a href="/style-guide/cta" class="text-blue-600 visited:text-purple-600">CTA</a>
+	</p>
+	<p>
 		<a href="/style-guide/image" class="text-blue-600 visited:text-purple-600">Image</a>
 	</p>
 </section>
@@ -32,9 +35,6 @@
 	<br />
 	<p>
 		<a href="/style-guide/card" class="text-blue-600 visited:text-purple-600">Card</a>
-	</p>
-	<p>
-		<a href="/style-guide/cta" class="text-blue-600 visited:text-purple-600">CTA</a>
 	</p>
 	<p>
 		<a href="/style-guide/hero" class="text-blue-600 visited:text-purple-600">Hero</a>
