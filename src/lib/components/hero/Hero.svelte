@@ -1,7 +1,9 @@
 <script>
+	import Image from '$lib/components/image/Image.svelte';
 	export let heading;
 	export let topSubheader;
 	export let bottomSubheader;
+	//
 	export let imageDesktop;
 	export let imageMobile;
 	export let imageAlt;
@@ -14,10 +16,7 @@
 		<p class="text-base">{@html bottomSubheader}</p>
 	</div>
 	<div class="flex-1 w-64">
-		<picture class="w-full h-full">
-			<source media="(min-width: 768px)" srcset={imageDesktop} />
-			<img class="object-cover w-full h-full" src={imageMobile} alt={imageAlt} />
-		</picture>
+		<Image {imageDesktop} {imageMobile} {imageAlt} />
 	</div>
 </div>
 

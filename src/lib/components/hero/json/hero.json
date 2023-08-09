@@ -6,7 +6,7 @@
 	"paddingRight": "",
 	"imageDesktop": "https://picsum.photos/1280/720",
 	"imageMobile": "https://picsum.photos/640/360",
-	"imageAlt": "Alt Tag Description here",
+	"imageAlt": "From JSON File",
 	"altText": "alt text",
 	"headingValue": "h1",
 	"headingStyle": "headline1",
