@@ -1,9 +1,9 @@
 <script>
-  export let text;
-  export let styles
+	export let text;
+	export let styles;
 </script>
 
-<p class="{styles}">{@html text}</p>
+<p class={styles}>{@html text}</p>
 
 <style>
 </style>
