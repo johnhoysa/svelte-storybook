@@ -1,12 +1,12 @@
 {
 	"anchor": "card",
 	"heading": "Heading Lorem ipsum <span>dolor sit amet</span>",
-	"text": "<p class=\"text-base\">Text ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+	"text": "<p class=\"text-base\">Content is centered within cards. </p>",
 	"imageDesktop": "https://picsum.photos/1280/720",
 	"imageMobile": "https://picsum.photos/640/360",
-	"ctaLabel": "CTA Card",
-    "ctaStyle": "",
-    "ctaType": "internal",
-    "ctaTarget": "_self",
-    "ctaUrl": "/"
+	"ctaLabel": "CTA",
+	"ctaStyle": "",
+	"ctaType": "internal",
+	"ctaTarget": "_self",
+	"ctaUrl": "/"
 }

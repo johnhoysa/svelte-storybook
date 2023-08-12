@@ -10,8 +10,9 @@
 	<h3 class="text-3xl">About</h3>
 	<p>
 		A custom style guide to give developers, authors, and clients a peek at how each component might
-		work on a page
+		work on a page.
 	</p>
+	<p>Be sure to have the console open to see messages from CTAs and Form submits.</p>
 </section>
 
 <section class="p-2">
