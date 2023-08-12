@@ -8,8 +8,7 @@
 	let food;
 	//
 	function handleSubmit() {
-		console.log("I'm the validate/submit function");
-		console.log('what is value of name field? ', form.firstName.value);
+		console.log('Form was submitted ', form.firstName.value, form.food.value);
 	}
 </script>
 
@@ -40,6 +39,10 @@
 		<Select bind:value={food} label="Favorite food" name="food" required="required">
 			<option value="chocolate">Chocolate</option>
 			<option value="pizza">Pizza</option>
+			<option value="tacos">Tacos</option>
+			<option value="fries">French Fries</option>
+			<option value="burger">Burger</option>
+			<option value="breakfasttacos">Breakfast Tacos</option>
 		</Select>
 	</div>
 
