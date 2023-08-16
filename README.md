@@ -6,7 +6,7 @@ This was my first time using Tailwind CSS and I need to spend more time with it 
 
 This was also my first time using Svelete and it was fun to see where I started and where I currently am with creating some basic components.
 
-Surprise, this was also my first time using Storybook, I enjoyed the experience but am really looking forwrad to using Storybook when and if possible.
+Surprise, this was also my first time using Storybook and I really enjoyed the experience and see the benefits for developers and clients.
 
 ## Getting Started
 
